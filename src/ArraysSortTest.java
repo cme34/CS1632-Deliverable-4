@@ -63,7 +63,7 @@ public class ArraysSortTest {
 	
 	/** This test checks if an array is sorted twice, the output should not be different from sorting it once */
 	@Test
-	public void testIdempotentandPure() {
+	public void testIdempotent() {
 		for (int i = 0; i < 100; i++) {
 			//Get array from list of randomly created arrays
 			int[] arr = Arrays.copyOf(arrays.get(i), arrays.get(i).length);
